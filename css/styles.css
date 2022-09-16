@@ -70,12 +70,16 @@ body {
  #weather-data h2 i {
     font-size: 1rem;
  }
+
+ #weather-data h2 span {
+    font-size: 1.3rem;
+ }
  
  #weather-data span {
     margin: 0.6rem;
  }
 
- #contry {
+ #country {
     height: 15px;
  }
 
@@ -84,6 +88,11 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0.6rem 0;
+ }
+
+ #description {
+    font-weight: bold;
+    text-transform: capitalize;
  }
 
  #details-container {
@@ -97,7 +106,3 @@ body {
     margin: 0.6rem;
     padding: 0.6rem;
  }
-
-
-
-
